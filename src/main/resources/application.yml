@@ -1,0 +1,27 @@
+spring.datasource.url: jdbc:mysql://localhost:3306/blog_engine?useSSL=false&serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8
+
+spring.datasource.username: sergey
+spring.datasource.password: test
+spring.jpa.show-sql: true
+spring.liquibase.enabled: true
+
+mail:
+  protocol: smtp
+  smtpHost: smtp.mail.ru
+  smtpPort: 465
+  smtpSslEnable: true
+  smtpAuth: true
+  debug: false
+  login: test
+  password: test
+
+head:
+  information:
+    title: DevPub
+    subtitle: Рассказы разработчиков
+    phone: +7 903 666-44-55
+    email: mail@mail.ru
+    copyright: Дмитрий Сергеев
+    copyrightFrom: 2005
+
+captcha.lifetime: 1
